@@ -1,0 +1,29 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>BreakTheMaze</Name>
+    <Description>미로 부수기 게임</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>BreakTheMaze</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.png</Icon>
+    <PreviewImage>__PreviewImage.png</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="BreakTheMaze.vcxproj" File="BreakTheMaze.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">BreakTheMaze.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="main.cpp">SRC\main.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ofApp.cpp">SRC\ofApp.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ofxGif.cpp">SRC\ofxGif.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ofApp.h">SRC\ofApp.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ofMain.h">SRC\ofMain.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ofxGif.h">SRC\ofxGif.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="icon.rc">icon.rc</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
